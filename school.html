@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JokeJunction</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-semibold" href="index.html">JokeJunction</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Jokes type
+                    </a>          
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Random</a></li>
+                    <li><a class="dropdown-item" href="#">Programming</a></li>
+                    <li><a class="dropdown-item" href="#">Pun</a></li>
+                    <li><a class="dropdown-item" href="#">Dark</a></li>
+                  </ul>
+                 </li> -->
+                </ul>
+                <span class="navbar-text fw-semibold">
+                  Welcome To Your Source Of Laughter!
+                </span>
+              </div>
+            </div>
+          </nav>
+    </header>
+   
+    <div class="container">
+        <div class="p-4 p-md-5 mb-4 rounded">
+            <div class="col-lg-6 px-0">
+              <h6 class="display-6 fst-italic">Hit the 'Generate Joke' Button </h6>
+              <p class="lead my-3">You're just a click away from Pun humor. Hit the "Generate Joke" button, and watch as a fresh, random joke appears on your screen. It's that easy! Keep clicking for a continuous stream of laughs.</p>
+             
+            </div>
+        </div>
+        <div class="card text-center mb-4">
+            <div class="card-header">
+              School Jokes
+            </div>
+            <div class="card-body">
+              <p class="card-text" id="SchoolJoke">Click on "Generate joke" to view randomly genrated Pun jokes</p>
+              <a href="#" class="btn btn-primary" id="Generate">Generate joke</a>
+              <button class="btn" id="copy"><i class="fa-solid fa-copy" id="check"></i></button>
+            </div>
+           
+          </div>
+    </div>
+        <footer class="py-3">
+          <ul class="nav justify-content-center pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link px-2 text-white">About</a></li>
+            <li class="nav-item nav-link px-2 text-white">Features</li>
+            <li class="nav-item nav-link px-2 text-white">Contact Us</li>
+          </ul>
+          <p class="text-center text-white">© 2023 JokeJunction</p>
+        </footer>
+
+        <script src="schoolJokes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

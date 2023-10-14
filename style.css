@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background:rgb(163, 163, 252);
+}
+.d-flex button{
+  background-color: #fff;
+}
+footer{
+    background:#1b1f22;
+}
+footer ul li a{
+    color: red;
+}
+header{
+    margin-bottom: 80px;
+}
+.container-footer{
+    border: 1px solid black;
+    margin: 50px;
+    padding: 10px;
+}
+.container .bgcolor{
+    background-color: rgb(163, 163, 252);
+}
+.container{
+    height: 100%;
+}
